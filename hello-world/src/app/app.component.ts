@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = ' project hello-world';
+  getName() {
+    alert("you have clicked");
+  };
+
+  obj={
+    name: "Ayushi",
+    age:12
+  }
+
+  arr = ["ayu", "shar", "min"];
 }
